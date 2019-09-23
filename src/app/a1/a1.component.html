@@ -1,0 +1,90 @@
+<main class="container-fluid" *ngIf="assignment">
+   <h1>{{assignment.title}}: {{assignment.name}}</h1>
+   <h3>Due {{assignment.due}}</h3>
+   <p>In this assignment, you'll make yourself a basic portfolio online. Portfolios are useful for showing potential employers the skills you've picked up in coursework, internships, side projects, etc.</p>
+   <h2>Starter code</h2>
+   <p>A starter repository is on <a href="https://classroom.github.com/a/d73hROPs">GitHub Classroom</a>.</p>
+   <h3>Git and GitHub</h3>
+   <p>Git is the most prevalent version control software today. <a href="https://github.com">GitHub</a> is a popular hosting service for Git projects, and includes many social networking features. Git and GitHub are different products! Git is freely-available <a href="https://git-scm.com/">open source software</a>, while GitHub was <a href="https://www.theverge.com/2018/6/4/17422788/microsoft-github-acquisition-official-deal">acquired by Microsoft</a> for $7.5 billion in June 2018.</p>
+   <p>Most Git repositories are managed with your favorite terminal. GitHub provides some <a href="https://try.github.io/">resources</a> for picking up Git. The <a href="https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf">cheatsheet</a> can be a particularly useful reference.</p>
+   <p>GitHub also provides <a href="https://desktop.github.com/">desktop apps</a> for managing Git repositories on macOS and Windows. These have the classic advantages and disadvantages of interfaces. The desktop apps have a much shallower learning curve and make completing simple tasks easier, but lack expressivity for the more advanced Git and GitHub features. You're welcome to choose either a desktop app or the terminal in this class.</p>
+   <p>The desktop apps automatically install Git. It's also possible to install Git <a href="https://gist.github.com/derhuerst/1b15ff4652a867391f03">on its own</a>, such as with the Debian package manager on Linux or via HomeBrew for Mac.</p>
+   <h2>Requirements</h2>
+   <p>There are three main categories of requirements: Content, Responsiveness, and Validatity.</p>
+   <h3>Content</h3>
+   <p>The content requirements for your portfolio are intentionally flexible. We hope you embrace the assignment and make something of high enough quality to use as you search for internships or jobs. </p>
+   <p>You must include basic HTML content (at least 3 of the following):</p>
+   <ul>
+      <li>At least one image, with descriptive alt attribute(s)</li>
+      <li>Appropriate headings and paragraph text</li>
+      <li>Links to external page(s)</li>
+      <li>Multiple pages, with appropriate navigation between them</li>
+      <li>Semantic HTML tags like <code>aside</code> or <code>footer</code></li>
+      <li>Adding custom icons from <a href="https://google.github.io/material-design-icons/">Google Material Icons</a> or <a href="https://fontawesome.com/">Font Awesome</a></li>
+   </ul>
+   <p>You must also include basic CSS styling (at least 2 of the following):</p>
+   <ul>
+      <li>Modifying padding and margins to indent content and enhance readability</li>
+      <li>Modifying link, text color, or other colors to be visually appealing, perhaps with one of the pallette creators in the <a href="/resources">resources tab</a></li>
+      <li>Leveraging <a href="https://getbootstrap.com/docs/3.3/css/">Bootstrap CSS helpers</a> such as image shapes and table layouts to display content in a more interesting manner</li>
+      <li>Adding custom font(s) from <a href="https://fonts.google.com/">Google fonts</a> to add more personality (make sure to include appropriate fallbacks)</li>
+   </ul>
+   <p>Finally, you must include at least 1 more advanced feature which goes beyond modifying text and block layouts, such as:</p>
+   <ul>
+      <li>Creating a table with multiple columns and rows which can be read via a screen reader</li>
+      <li>Creating a more complex page layout, such as including a sidebar</li>
+      <li>Embedded HTML5 media, like video or audio, with fallbacks</li>
+      <li>Leveraging nested selectors to specify format</li>
+      <li>A contact form which leverages HTML forms</li>
+   </ul>
+   <p>We're extremely open to other ideas. Contact the course staff if you have an idea which doesn't fall into one of the above categories, and we'll update the lists. Take this as an opportunity to be creative. Feel free to build off online examples which use JavaScript or HTML or CSS tags that we didn't cover in lecture.</p>
+   <h3>Responsiveness</h3>
+   <p>Your portfolio must look good on a range of screen dimensions. Think about readability and the flow of the page on different screens, and consider what content you might want to hide or reformat in non-desktop environments. Take a look at how different pages you visit rework their content on mobile and desktop. Prior to implementing, consider sketching on paper how you envision your portfolio looking for a few different types of screens.</p>
+   <p>You are not required to use <a href="http://getbootstrap.com/">Bootstrap</a>, but it provides useful tools <a href="https://getbootstrap.com/docs/3.3/css/#grid">(e.g., the Grid System)</a> for making responsive pages. <a href="https://developers.google.com/web/tools/chrome-devtools/device-mode/emulate-mobile-viewports">Google Chrome</a> and <a href="https://developer.mozilla.org/en-US/docs/Tools/Responsive_Design_Mode">Mozilla Firefox</a> have great tools for emulating a range of screen sizes, but both note limitations in properly emulating all devices. We'll test your portfolios with these browser tools rather than on a range of real devices.</p>
+   <p>We will evaluate responsiveness based on your portfolio's readability, navigability, and content choices in a range of screen sizes.</p>
+   <h3>Validity</h3>
+   <p>The page(s) you generate must also pass three validation checks:</p>
+   <ol>
+      <li>The HTML must be well-formed, validated by <a href="https://validator.w3.org/">W3C</a>.</li>
+      <li>The CSS must also be well-formed, validated by <a href="https://jigsaw.w3.org/css-validator/">W3C</a>.</li>
+      <li>The page must pass accessibility guidelines, validated by <a href="https://achecker.ca/checker/index.php">AChecker</a> and/or <a href="http://wave.webaim.org/">Wave</a> (submit the AChecker validation, but perhaps try Wave too).</li>
+   </ol>
+   <p>The checkers vary in stringency. Aim to resolve all of the errors, but think through whether the warnings are actually problems. Include separate checker files for each screen in your webpage.</p>
+   <p>If you've made yourself a portfolio for another class or as a side project, it may fill the requirements for this assignment. It must be made from scratch; it cannot be made using a site creator like Weebly, Wix, SquareSpace, etc. It also must be responsive and pass the validation checks, and consider adding a feature or two to embrace the spirit of the assignment. Contact the course staff if you have questions about using a portfolio you've already made for this assignment.</p>
+   <p>If your previous site fits the requirements, submit it as though you made it this quarter, but indicate in your <code>readme.txt</code> that you're submitting a portfolio you made before this course. Describe what you changed to pass the validation checks and any features you've added to enhance your portfolio.</p>
+   <h3>Submission</h3>
+   <p>Your repository should be organized as follows:</p>
+   <ul>
+      <li>An <code>index.html</code> file containing your webpage's root.</li>
+      <li>Any additional <code>.html</code> and <code>.css</code> files as necessary.</li>
+      <li>For each validation check, include screenshot(s) in <code>.jpg</code> format with the matching filename: <code>valid-html*.jpg</code>, <code>valid-css*.jpg</code>, <code>valid-accessibility*.jpg</code>. The "<code>*</code>" is used to designate the page each check refers to.</li>
+      <li>
+         A <code>readme.txt</code> document containing:
+         <ul>
+            <li>The number of assignment points you believe you have completed</li>
+            <li>A list containing the basic HTML content, CSS styling, and advanced feature you included in your portfolio</li>
+            <li>How long it took you to complete the assignment</li>
+            <li>A list of urls of the online resources you consulted</li>
+            <li>A list of classmates or other individuals you consulted</li>
+         </ul>
+      </li>
+   </ul>
+   <p>To submit, zip your repository and upload it to <a href="https://canvas.eee.uci.edu/courses/18235/assignments/362522">Canvas</a>. Any late uploads are subject to the course's <a href="/syllabus#duedates">late policy</a>.</p>
+   <p>If you're proud of your portfolio, it's pretty easy to put it online! ICS gives all students space to post portfolios or other webpages. Follow the directions <a href="https://www.ics.uci.edu/computing/web/personalpage.php">here</a> to get your page online. This assignment does not rerquire you to make your portfolio public, but we encourage you to consider it.</p>
+   <h3>Grading</h3>
+   <p>This assignment will be graded on a scale of 10 points, with the possibility of 1 bonus point, broken down as follows:</p>
+   <ul>
+      <li>Readme is complete (1 points)</li>
+      <li>Includes basic HTML content (2 points)</li>
+      <li>Includes basic CSS styling (1 points)</li>
+      <li>Includes an advanced feature (1 point)</li>
+      <li>Responsive layout (2 points)</li>
+      <li>Passes three validation checks (1 points)</li>
+      <li>Embracing the spirit of the assignment (2+1 points)</li>
+   </ul>
+   <p>Toward the last category, we hope you take this chance to make a portfolio you'd want to use beyond this assignment and will reward the students who embrace the opportunity the most. We therefore expect the median and mode for this category to be 1 or 2 points. A bonus point is possible for particularly exceptional portfolios. 0 points can be used in cases where the minimum specifications around content, responsiveness, and validity have been reached, but the design of the portfolio would not impress a prospective employer.</p>
+   <p>Embracing the opportunity can mean adding multiple advanced features. Or it could mean following <a href="https://www.glidedesign.com/10-principles-of-good-web-design/">principles</a>&nbsp;<a href="https://www.jotform.com/blog/how-to-make-a-web-design-look-good/">of</a>&nbsp;<a href="https://shortiedesigns.com/2014/03/10-top-principles-effective-web-design/">good</a>&nbsp;<a href="https://wpastra.com/good-website-design/">design</a> which you may have discussed in other courses or seen on webpages you visit regularly. In either case, we will evaluate how well these additions <strong>enhance</strong> your portfolio. It's one thing to add random videos and tables or make a single-page scrolling website. It's another for those features to add value for a potential employer.</p>
+   <p>In prior courses, you've been asked to follow good principles for indentation, naming variables, commenting, etc. We expect you to do the same in this course, but aim to avoid being draconian in our enforcement of these principles. Egregiously poor formatting, completely uncommented code, etc. may incur a small penalty (e.g., -1 point), but we expect this to be rarely applied.</p>
+   <p>Finally, note that the grading only evaluates the code written to generate your portfolio and how it appears visually. We're not looking to evaluate how interesting your bio is or the accuracy of your project descriptions (though of course, a potential employer would!). If you find that you're running out of time, think about whether <a href="https://loremipsum.io/">Lorem Ipsum</a> text or <a href="https://morguefile.com/quest/1">placeholder images</a> could help. Be sure to acknowledge your sources!</p>
+   <p>If you feel like you don't have projects to add, think about the projects you have completed in recent courses. Projects can take many forms including reports, mockups, and source code. Any or all of those can be included in a portfolio. Lorem Ipsum or placeholders are also fine for the purpose of the assignment.</p>
+</main>

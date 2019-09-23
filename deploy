@@ -1,0 +1,2 @@
+ng build --prod
+npx ngh --no-silent --dir dist/inf133-fa19

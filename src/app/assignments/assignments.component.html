@@ -1,0 +1,9 @@
+<main class="container-fluid">
+	<h1>Assignments</h1>
+	<ul>
+		<li *ngFor="let assignment of assignments">
+			<a *ngIf="assignment.link" [href]="assignment.link">{{assignment.title}}, {{assignment.name}} (Due {{assignment.due}})</a>
+			<span *ngIf="!assignment.link">{{assignment.title}}, {{assignment.name}} (Due {{assignment.due}})</span>
+		</li>
+	</ul>
+</main>

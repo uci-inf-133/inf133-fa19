@@ -1,0 +1,51 @@
+<div class="row">
+	<aside class="col-md-3 hidden-sm hidden-xs">
+		<h2>Basic Information</h2>
+		<p>Lecture: TuTh 8:00am-9:20am (SSLH 100)</p>
+		<p>Discussion: Mo 9:00-9:50 (HH 254)<br>10:00-10:50 (HH 254)<br>1:00-1:50 (ALP 2500)<br>2:00-2:50 (ALP 2500)</p>
+		<p>Office Hours: Tu 2:30-4:30 (Epstein, DBH 6093), Silva & Lee TBD</p>
+		<p>Slack: <a href="https://uci-inf133-fa19.slack.com">https://uci-inf133-fa19.slack.com</a></p>
+		<p>Email: <a href="mailto:informatics-133-staff@uci.edu">informatics-133-staff@uci.edu</a></p>
+		<h2>Upcoming Assignments and Quizzes</h2>
+		<p *ngFor='let event of assignments_and_quizzes'>
+			<a *ngIf="event.link" [href]="event.link">{{event.dateStr}}: {{event.title}}</a>
+			<span *ngIf="!event.link">{{event.dateStr}}: {{event.title}}</span>
+		</p>
+		<p *ngIf="assignments_and_quizzes.length == 0">
+			No more!
+		</p>
+		<h2>Recent Lectures</h2>
+		<p *ngFor='let event of lectures'>
+			{{event.dateStr}}: {{event.title}}
+			<a [href]="event.link" *ngIf="event.link"> (slides)</a>
+			<a [href]="event.recording" *ngIf="event.recording"> (recording)</a>
+		</p>
+		<p *ngIf="lectures.length == 0">
+			None yet!
+		</p>
+	</aside>
+	<main class="col-md-9 col-sm-12">
+		<p>Welcome! This class focuses on the programming and development of user interfaces, with a specific focus on modern web and mobile technology. We'll cover HTML, CSS, JavaScript, TypeScript, Angular, and Ionic along the way, growing an understanding of what each of these technologies provides and affords. Coming out of this class, students should be able to weigh the strengths and weaknesses of different devices and development frameworks for a given task.</p>
+        <h2>Course Staff</h2>
+        <div class="container-fluid">
+        	<div class="row">
+        		<div class="col-4">
+        			<p>Professor Daniel Epstein</p>
+        			<img src="assets/images/epstein.jpg" alt="picture of Professor Epstein" width="200px">
+        		</div>
+        		<div class="col-4">
+        			<p>TA Lucas de Melo Silva</p>
+        			<img src="assets/images/lucas.jpg" alt="picture of Lucas de Melo Silva" width="200px">
+        		</div>
+        		<div class="col-4">
+        			<p>TA Jongho Lee</p>
+        			<img src="assets/images/jongho.jpg" alt="picture of Jongho Lee" width="200px">
+        		</div>
+        	</div>
+        </div>
+        <h2>Repository</h2>
+        <p>This website is live on GitHub: 
+            <a href="https://github.com/uci-inf-133/inf133-fa19" target="_blank">https://github.com/uci-inf-133/inf133-fa19</a>
+        <p>You can create issues if information is unclear, incorrect, or out-of-date. You can even submit a pull request to resolve them yourself!</p>
+	</main>
+</div>

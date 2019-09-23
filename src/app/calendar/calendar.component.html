@@ -1,0 +1,51 @@
+<main class="container-fluid">
+	<h1>Calendar</h1>
+	<p class="tbd">All deadlines are subject to change, particularly prior to the start of the quarter.</p>
+	<div class="row row-eq-height" *ngFor="let week of calendar">
+		<div *ngFor="let day of week" class="day" [ngClass]="day.weekend ? (day.today ? 'col today' : 'col') : (day.today ? 'col-2 today' : 'col-2')">
+			<div>
+				{{day.dateStr}}
+			</div>
+			<div *ngFor="let event of day.events">
+				<div *ngIf="event.type == 'lecture' || event.type =='discussion'" class="event {{event.type}}">
+					<div class="title">
+						<a *ngIf="event.link" [href]="event.link">{{event.title}}</a>
+						<span *ngIf="!event.link">{{event.title}}</span>
+					</div>
+					<div>{{event.timeStr}} | {{event.location}}</div>
+					<a *ngIf="event.recording" [href]="event.recording">lecture recording</a>
+				</div>
+				<div *ngIf="event.type == 'officehours_daniel' || event.type == 'officehours_simion' || event.type == 'officehours_jamshir'" class="event {{event.type}}">
+					<div class="title">
+						{{event.label}}
+					</div>
+					<div>
+						{{event.timeStr}} | {{event.location}}
+					</div>
+				</div>
+				<div *ngIf="event.type == 'holiday' || event.type == 'absence'" class="event {{event.type}}">
+					<div class="title">
+						{{event.title}}
+					</div>
+				</div>
+				<div *ngIf="event.type == 'assignment'" class="event {{event.type}}">
+					<div class="title">
+						<a *ngIf="event.link" [href]="event.link">{{event.title}} Due</a>
+						<span *ngIf="!event.link">{{event.title}} Due</span>
+					</div>
+					<div>
+						{{event.name}}
+					</div>
+				</div>
+				<div *ngIf="event.type == 'quiz'" class="event {{event.type}}">
+					<div class="title">
+						{{event.title}}
+						<div>
+							{{event.name}}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</main>
