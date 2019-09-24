@@ -48,8 +48,28 @@
 				}
 			]
 		},
+		"officehours_lucas": {
+			"place": [
+				{
+					"time": "09:30",
+					"duration": "120",
+					"location": "TBD",
+					"label": "Lucas Office Hours"
+				}
+			]
+		},
+		"officehours_jongho": {
+			"place": [
+				{
+					"time": "13:00",
+					"duration": "120",
+					"location": "TBD",
+					"label": "Jongho Office Hours"
+				}
+			]
+		},
 		"assignment" : {
-			"due": "21:00"
+			"due": "23:59"
 		},
 		"quiz" : {
 			"due": "09:00"
@@ -83,9 +103,17 @@
 			"type": "officehours_daniel"
 		},
 		{
+			"date": "2019-10-02",
+			"type": "officehours_jongho"
+		},
+		{
 			"date": "2019-10-03",
 			"type": "lecture",
 			"title": "CSS & Responsive Design"
+		},
+		{
+			"date": "2019-10-04",
+			"type": "officehours_lucas"
 		},
 		{
 			"date": "2019-10-07",
@@ -102,9 +130,24 @@
 			"type": "officehours_daniel"
 		},
 		{
+			"date": "2019-10-09",
+			"type": "officehours_jongho"
+		},
+		{
 			"date": "2019-10-10",
 			"type": "lecture",
 			"title": "JavaScript 2"
+		},
+		{
+			"date": "2019-10-11",
+			"type": "officehours_lucas"
+		},
+		{
+			"date": "2019-10-11",
+			"type": "assignment",
+			"title": "A1",
+			"name": "Responsive Portfolio in HTML and CSS",
+			"link": "/assignments/a1"
 		},
 		{
 			"date": "2019-10-14",
@@ -121,16 +164,17 @@
 			"type": "officehours_daniel"
 		},
 		{
-			"date": "2019-10-11",
-			"type": "assignment",
-			"title": "A1",
-			"name": "Responsive Portfolio in HTML and CSS",
-			"link": "/assignments/a1"
+			"date": "2019-10-16",
+			"type": "officehours_jongho"
 		},
 		{
 			"date": "2019-10-17",
 			"type": "lecture",
 			"title": "TypeScript & Data Visualization Tools"
+		},
+		{
+			"date": "2019-10-18",
+			"type": "officehours_lucas"
 		},
 		{
 			"date": "2019-10-21",
@@ -152,9 +196,17 @@
 			"type": "officehours_daniel"
 		},
 		{
+			"date": "2019-10-23",
+			"type": "officehours_jongho"
+		},
+		{
 			"date": "2019-10-24",
 			"type": "lecture",
 			"title": "Server-Side Development, Authentication, and Authorization"
+		},
+		{
+			"date": "2019-10-25",
+			"type": "officehours_lucas"
 		},
 		{
 			"date": "2019-10-28",
@@ -177,9 +229,17 @@
 			"title": "Components in Angular"
 		},
 		{
+			"date": "2019-10-30",
+			"type": "officehours_jongho"
+		},
+		{
 			"date": "2019-10-31",
 			"type": "lecture",
 			"title": "Separation in Angular"
+		},
+		{
+			"date": "2019-11-01",
+			"type": "officehours_lucas"
 		},
 		{
 			"date": "2019-11-04",
@@ -196,9 +256,17 @@
 			"type": "officehours_daniel"
 		},
 		{
+			"date": "2019-11-06",
+			"type": "officehours_jongho"
+		},
+		{
 			"date": "2019-11-07",
 			"type": "lecture",
 			"title": "Mobile Design Principles & SASS"
+		},
+		{
+			"date": "2019-11-08",
+			"type": "officehours_lucas"
 		},
 		{
 			"date": "2019-11-11",
@@ -226,6 +294,10 @@
 			"title": "Professor Epstein Away (CSCW)"
 		},
 		{
+			"date": "2019-11-13",
+			"type": "officehours_jongho"
+		},
+		{
 			"date": "2019-11-14",
 			"type": "absence",
 			"title": "Professor Epstein Away (CCC Workshop)"
@@ -241,6 +313,10 @@
 			"title": "Professor Epstein Away (CCC Workshop)"
 		},
 		{
+			"date": "2019-11-15",
+			"type": "officehours_lucas"
+		},
+		{
 			"date": "2019-11-18",
 			"type": "discussion",
 			"title": "Discussion"
@@ -251,9 +327,23 @@
 			"title": "Midterm 2"
 		},
 		{
+			"date": "2019-11-18",
+			"type": "assignment",
+			"title": "A3",
+			"name": "Spotify Browser in Angular"
+		},
+		{
 			"date": "2019-11-19",
 			"type": "lecture",
 			"title": "Hybrid & Native Architectures"
+		},
+		{
+			"date": "2019-11-19",
+			"type": "officehours_daniel"
+		},
+		{
+			"date": "2019-11-20",
+			"type": "officehours_jongho"
 		},
 		{
 			"date": "2019-11-21",
@@ -261,14 +351,8 @@
 			"title": "Ionic Components"
 		},
 		{
-			"date": "2019-11-19",
-			"type": "officehours_daniel"
-		},
-		{
-			"date": "2019-11-18",
-			"type": "assignment",
-			"title": "A3",
-			"name": "Spotify Browser in Angular"
+			"date": "2019-11-22",
+			"type": "officehours_lucas"
 		},
 		{
 			"date": "2019-11-25",
@@ -283,6 +367,10 @@
 		{
 			"date": "2019-11-26",
 			"type": "officehours_daniel"
+		},
+		{
+			"date": "2019-11-27",
+			"type": "officehours_jongho"
 		},
 		{
 			"date": "2019-11-28",
@@ -309,6 +397,10 @@
 			"title": "Databases"
 		},
 		{
+			"date": "2019-12-04",
+			"type": "officehours_jongho"
+		},
+		{
 			"date": "2019-12-05",
 			"type": "lecture",
 			"title": "Research Topics & Wrap-up"
@@ -318,6 +410,10 @@
 			"type": "assignment",
 			"title": "A4",
 			"name": "Sleep Tracker in Ionic"
+		},
+		{
+			"date": "2019-12-06",
+			"type": "officehours_lucas"
 		},
 		{
 			"date": "2019-12-10",

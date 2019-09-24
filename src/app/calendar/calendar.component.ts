@@ -20,7 +20,7 @@ export class CalendarComponent implements OnInit {
   }
 
   parseCalendar(calendar:{}) {
-  	const typeOrder = ["holiday", "absence", "assignment", "quiz", "lecture", "discussion", "officehours_daniel", "officehours_jamshir", "officehours_simion"]
+  	const typeOrder = ["holiday", "absence", "assignment", "quiz", "lecture", "discussion", "officehours_daniel", "officehours_jongho", "officehours_lucas"]
 
     let events:any[] = calendar['events'];
     //Add date string to each event

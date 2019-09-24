@@ -15,7 +15,7 @@
 					<div>{{event.timeStr}} | {{event.location}}</div>
 					<a *ngIf="event.recording" [href]="event.recording">lecture recording</a>
 				</div>
-				<div *ngIf="event.type == 'officehours_daniel' || event.type == 'officehours_simion' || event.type == 'officehours_jamshir'" class="event {{event.type}}">
+				<div *ngIf="event.type == 'officehours_daniel' || event.type == 'officehours_jongho' || event.type == 'officehours_lucas'" class="event {{event.type}}">
 					<div class="title">
 						{{event.label}}
 					</div>
