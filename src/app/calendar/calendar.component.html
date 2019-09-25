@@ -9,19 +9,18 @@
 			<div *ngFor="let event of day.events">
 				<div *ngIf="event.type == 'lecture' || event.type =='discussion'" class="event {{event.type}}">
 					<div class="title">
-						<a *ngIf="event.link" [href]="event.link">{{event.title}}</a>
+						<a *ngIf="event.link" [href]="event.link" target="_blank">{{event.title}}</a>
 						<span *ngIf="!event.link">{{event.title}}</span>
 					</div>
-					<div>{{event.timeStr}} | {{event.location}}</div>
-					<a *ngIf="event.recording" [href]="event.recording">lecture recording</a>
+					<div *ngFor="let place of event.places">{{place.timeStr}} | {{place.location}}</div>
+					<a *ngIf="event.demo" [href]="event.demo">demo code</a>
+					<a *ngIf="event.recording" [href]="event.recording" target="_blank">lecture recording</a>
 				</div>
 				<div *ngIf="event.type == 'officehours_daniel' || event.type == 'officehours_jongho' || event.type == 'officehours_lucas'" class="event {{event.type}}">
 					<div class="title">
 						{{event.label}}
 					</div>
-					<div>
-						{{event.timeStr}} | {{event.location}}
-					</div>
+					<div *ngFor="let place of event.places">{{place.timeStr}} | {{place.location}}</div>
 				</div>
 				<div *ngIf="event.type == 'holiday' || event.type == 'absence'" class="event {{event.type}}">
 					<div class="title">

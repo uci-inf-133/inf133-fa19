@@ -1,2 +1,2 @@
 ng build --prod
-npx ngh --no-silent --dir dist/inf133-fa19 --cname=inf133-fa19.depstein.net
+npx ngh --dir dist/inf133-fa19 --cname=inf133-fa19.depstein.net

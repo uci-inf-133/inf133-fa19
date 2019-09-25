@@ -60,7 +60,26 @@ export class CalendarComponent implements OnInit {
 			var eventsToPush = [];
 			//Add defaults
 			if(event.type in calendar['defaults'] && "place" in calendar['defaults'][event.type]) {
-				eventsToPush = calendar['defaults'][event.type]["place"].map((place) => {
+				var ev = {
+					"places": []
+				}
+				if(Array.isArray(calendar['defaults'][event.type]["place"])) {
+					ev.places = calendar['defaults'][event.type]["place"].map(place => {
+						var start_time = moment(event.date + " " + place.time);
+						if("time" in event) {
+							start_time = moment(event.date + " " + event.time);
+						}
+						var end_time = moment(start_time).add(place.duration, "minutes");
+						if("duration" in event) {
+							end_time = moment(start_time).add(event.duration, "minutes");
+						}
+						return {
+							"timeStr": start_time.format("h:mm") + "-" + end_time.format("h:mm"),
+							"location": place.location
+						};
+					});
+				} else {
+					var place = calendar['defaults'][event.type]["place"];
 					var start_time = moment(event.date + " " + place.time);
 					if("time" in event) {
 						start_time = moment(event.date + " " + event.time);
@@ -69,12 +88,13 @@ export class CalendarComponent implements OnInit {
 					if("duration" in event) {
 						end_time = moment(start_time).add(event.duration, "minutes");
 					}
-					return {
-						"timeStr": start_time.format("h:mm") + "-" + end_time.format("h:mm"),
-						"location": place.location,
-						"label": place.label
-					}
-				});
+					ev.places.push({
+						"timeStr": [start_time.format("h:mm") + "-" + end_time.format("h:mm")],
+						"location": [place.location],
+					});
+					ev["label"] = place.label;
+				}
+				eventsToPush.push(ev);
 			} else {
 				eventsToPush.push({});
 			}
@@ -94,6 +114,9 @@ export class CalendarComponent implements OnInit {
 				}
 				if("location" in event) {
 					eventsToPush[i].location = event.location;
+				}
+				if("demo" in event) {
+					eventsToPush[i].demo = event.demo;
 				}
 			});
 			calendar_dates[calendarI].events = calendar_dates[calendarI].events.concat(eventsToPush);
