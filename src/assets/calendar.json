@@ -44,7 +44,7 @@
 			"place": {
 					"time": "09:30",
 					"duration": "120",
-					"location": "TBD",
+					"location": "ICS2 208",
 					"label": "Lucas Office Hours"
 				}
 		},
@@ -52,7 +52,7 @@
 			"place": {
 					"time": "13:00",
 					"duration": "120",
-					"location": "TBD",
+					"location": "ICS2 208",
 					"label": "Jongho Office Hours"
 				}
 		},
@@ -74,6 +74,7 @@
 		{
 			"date": "2019-09-30",
 			"type": "discussion",
+			"link": "assets/discussions/09_30_19-git_github.pdf",
 			"title": "Discussion"
 		},
 		{
