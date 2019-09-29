@@ -102,7 +102,9 @@
 		{
 			"date": "2019-10-03",
 			"type": "lecture",
-			"title": "CSS & Responsive Design"
+			"title": "CSS & Responsive Design",
+			"link": "assets/lectures/10_03_19-css_responsive.pdf",
+			"demo": "assets/demos/10_03_19-css_responsive.zip"
 		},
 		{
 			"date": "2019-10-04",
@@ -242,7 +244,7 @@
 		{
 			"date": "2019-11-05",
 			"type": "lecture",
-			"title": "Modeling Human Performance"
+			"title": "Mobile Design Principles & SASS"
 		},
 		{
 			"date": "2019-11-05",
@@ -255,11 +257,15 @@
 		{
 			"date": "2019-11-07",
 			"type": "lecture",
-			"title": "Mobile Design Principles & SASS"
+			"title": "Hybrid & Native Architectures"
 		},
 		{
 			"date": "2019-11-08",
 			"type": "officehours_lucas"
+		},
+		{
+			"date": "2019-11-08",
+			"type": "officehours_daniel"
 		},
 		{
 			"date": "2019-11-11",
@@ -274,7 +280,7 @@
 		{
 			"date": "2019-11-12",
 			"type": "absence",
-			"title": "Professor Epstein Away (CSCW)"
+			"title": "Professor Epstein Away (CSCW), Guest TBD"
 		},
 		{
 			"date": "2019-11-12",
@@ -293,12 +299,12 @@
 		{
 			"date": "2019-11-14",
 			"type": "absence",
-			"title": "Professor Epstein Away (CCC Workshop)"
+			"title": "Professor Epstein Away (CCC Workshop), Guest Tess Tanenbaum"
 		},
 		{
 			"date": "2019-11-14",
 			"type": "lecture",
-			"title": "TBD"
+			"title": "Mixed Reality Design and Play"
 		},
 		{
 			"date": "2019-11-15",
@@ -328,7 +334,7 @@
 		{
 			"date": "2019-11-19",
 			"type": "lecture",
-			"title": "Hybrid & Native Architectures"
+			"title": "Ionic Components"
 		},
 		{
 			"date": "2019-11-19",
@@ -340,8 +346,18 @@
 		},
 		{
 			"date": "2019-11-21",
+			"type": "absence",
+			"title": "Professor Epstein Away (NSF Panel), Guest Josh Garcia"
+		},
+		{
+			"date": "2019-11-21",
 			"type": "lecture",
-			"title": "Ionic Components"
+			"title": "Smartphone Systems Security"
+		},
+		{
+			"date": "2019-11-22",
+			"type": "absence",
+			"title": "Professor Epstein Away (NSF Panel)"
 		},
 		{
 			"date": "2019-11-22",
