@@ -121,7 +121,7 @@
 			"type": "lecture",
 			"title": "Bootstrap & Javascript 1",
 			"link": "assets/lectures/10_08_19-bootstrap_javascript.pdf",
-			"demo":""
+			"demo": "assets/demos/10_08_19-bootstrap_javascript.pdf",
 		},
 		{
 			"date": "2019-10-08",
