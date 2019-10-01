@@ -13,8 +13,8 @@
 						<span *ngIf="!event.link">{{event.title}}</span>
 					</div>
 					<div *ngFor="let place of event.places">{{place.timeStr}} | {{place.location}}</div>
-					<a *ngIf="event.demo" [href]="event.demo">demo code</a>
-					<a *ngIf="event.recording" [href]="event.recording" target="_blank">lecture recording</a>
+					<div *ngIf="event.demo"><a [href]="event.demo">demo code</a></div>
+					<div *ngIf="event.recording"><a [href]="event.recording" target="_blank">lecture recording</a></div>
 				</div>
 				<div *ngIf="event.type == 'officehours_daniel' || event.type == 'officehours_jongho' || event.type == 'officehours_lucas'" class="event {{event.type}}">
 					<div class="title">

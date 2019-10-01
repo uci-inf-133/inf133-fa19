@@ -14,7 +14,7 @@
 		<p *ngIf="assignments_and_quizzes.length == 0">
 			No more!
 		</p>
-		<h2>Recent Lectures</h2>
+		<h2>Recent Lectures & Discussions</h2>
 		<p *ngFor='let event of lectures'>
 			{{event.dateStr}}: {{event.title}}
 			<a [href]="event.link" *ngIf="event.link"> (slides)</a>

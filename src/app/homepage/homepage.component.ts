@@ -29,7 +29,7 @@ export class HomepageComponent implements OnInit {
     });
     //Filter by type
     this.assignments_and_quizzes = events.filter(e => e['type'] == 'assignment' || e['type'] == 'quiz');
-    this.lectures = events.filter(e => e['type'] == 'lecture');
+    this.lectures = events.filter(e => e['type'] == 'lecture' || e['type'] == 'discussion');
     //Filter by past/future
     this.assignments_and_quizzes = this.assignments_and_quizzes.filter(e => moment().isSameOrBefore(moment(e['date']), 'days'));
     this.lectures = this.lectures.filter(e => moment().isSameOrAfter(moment(e['date']), 'days'));
