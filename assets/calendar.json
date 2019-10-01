@@ -89,7 +89,8 @@
 			"type": "lecture",
 			"title": "HTML & Accessibility",
 			"link": "assets/lectures/10_01_19-html_accessibility.pdf",
-			"demo": "assets/demos/10_01_19-html_accessibility.zip"
+			"demo": "assets/demos/10_01_19-html_accessibility.zip",
+			"recording":"https://uci.yuja.com/V/Video?v=495430&node=2376764&a=1099394057&autoplay=1"
 		},
 		{
 			"date": "2019-10-01",
@@ -118,7 +119,9 @@
 		{
 			"date": "2019-10-08",
 			"type": "lecture",
-			"title": "Bootstrap & Javascript 1"
+			"title": "Bootstrap & Javascript 1",
+			"link": "assets/lectures/10_08_19-bootstrap_javascript.pdf",
+			"demo":""
 		},
 		{
 			"date": "2019-10-08",
