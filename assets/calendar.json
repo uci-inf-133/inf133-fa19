@@ -103,9 +103,10 @@
 		{
 			"date": "2019-10-03",
 			"type": "lecture",
-			"title": "CSS & Responsive Design",
-			"link": "assets/lectures/10_03_19-css_responsive.pdf",
-			"demo": "assets/demos/10_03_19-css_responsive.zip"
+			"title": "CSS",
+			"link": "assets/lectures/10_03_19-css.pdf",
+			"demo": "assets/demos/10_03_19-css.zip",
+			"recording":"https://uci.yuja.com/V/Video?v=497535&a=1316474058"
 		},
 		{
 			"date": "2019-10-04",
@@ -119,9 +120,9 @@
 		{
 			"date": "2019-10-08",
 			"type": "lecture",
-			"title": "Bootstrap & Javascript 1",
-			"link": "assets/lectures/10_08_19-bootstrap_javascript.pdf",
-			"demo": "assets/demos/10_08_19-bootstrap_javascript.zip"
+			"title": "Responsive Design & Javascript 1",
+			"link": "assets/lectures/10_08_19-responsive_javascript.pdf",
+			"demo": "assets/demos/10_08_19-responsive_javascript.zip"
 		},
 		{
 			"date": "2019-10-08",
