@@ -135,7 +135,9 @@
 		{
 			"date": "2019-10-10",
 			"type": "lecture",
-			"title": "JavaScript 2"
+			"title": "JavaScript 2",
+			"link": "assets/lectures/10_10_19-javascript.pdf",
+			"demo": "assets/demos/10_10_19-javascript.zip"
 		},
 		{
 			"date": "2019-10-11",
