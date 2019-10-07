@@ -218,7 +218,8 @@
 			"date": "2019-10-30",
 			"type": "assignment",
 			"title": "A2",
-			"name": "Runkeeper Tweet Report in JavaScript and TypeScript"
+			"name": "Runkeeper Tweet Report in JavaScript and TypeScript",
+			"link": "/assignments/a2"
 		},
 		{
 			"date": "2019-10-29",
@@ -266,12 +267,12 @@
 			"title": "Hybrid & Native Architectures"
 		},
 		{
-			"date": "2019-11-08",
-			"type": "officehours_lucas"
+			"date": "2019-11-07",
+			"type": "officehours_daniel"
 		},
 		{
 			"date": "2019-11-08",
-			"type": "officehours_daniel"
+			"type": "officehours_lucas"
 		},
 		{
 			"date": "2019-11-11",
@@ -286,12 +287,17 @@
 		{
 			"date": "2019-11-12",
 			"type": "absence",
-			"title": "Professor Epstein Away (CSCW), Guest TBD"
+			"title": "Professor Epstein Away (CSCW)"
 		},
 		{
 			"date": "2019-11-12",
 			"type": "lecture",
-			"title": "TBD"
+			"title": "Midterm in lecture"
+		},
+		{
+			"date": "2019-11-12",
+			"type": "quiz",
+			"title": "Midterm 2"
 		},
 		{
 			"date": "2019-11-13",
@@ -325,11 +331,6 @@
 			"date": "2019-11-18",
 			"type": "discussion",
 			"title": "Discussion"
-		},
-		{
-			"date": "2019-11-18",
-			"type": "quiz",
-			"title": "Midterm 2"
 		},
 		{
 			"date": "2019-11-18",
