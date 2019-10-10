@@ -139,7 +139,8 @@
 			"type": "lecture",
 			"title": "JavaScript 2",
 			"link": "assets/lectures/10_10_19-javascript.pdf",
-			"demo": "assets/demos/10_10_19-javascript.zip"
+			"demo": "assets/demos/10_10_19-javascript.zip",
+			"recording": "https://uci.yuja.com/V/Video?v=506015&a=996076044"
 		},
 		{
 			"date": "2019-10-11",
