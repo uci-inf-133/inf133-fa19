@@ -177,7 +177,9 @@
 		{
 			"date": "2019-10-17",
 			"type": "lecture",
-			"title": "TypeScript & Data Visualization Tools"
+			"title": "TypeScript & Data Visualization Tools",
+			"link": "assets/lectures/10_17_19-typescript_visualization.pdf",
+			"demo": "assets/demos/10_17_19-typescript_visualization.zip"
 		},
 		{
 			"date": "2019-10-18",
