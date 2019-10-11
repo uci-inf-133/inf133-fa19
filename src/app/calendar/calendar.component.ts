@@ -81,6 +81,7 @@ export class CalendarComponent implements OnInit {
 				} else {
 					var place = calendar['defaults'][event.type]["place"];
 					var start_time = moment(event.date + " " + place.time);
+					var loc = place.location;
 					if("time" in event) {
 						start_time = moment(event.date + " " + event.time);
 					}
@@ -88,9 +89,12 @@ export class CalendarComponent implements OnInit {
 					if("duration" in event) {
 						end_time = moment(start_time).add(event.duration, "minutes");
 					}
+					if("location" in event) {
+						loc = event.location;
+					}
 					ev.places.push({
 						"timeStr": [start_time.format("h:mm") + "-" + end_time.format("h:mm")],
-						"location": [place.location],
+						"location": [loc],
 					});
 					ev["label"] = place.label;
 				}

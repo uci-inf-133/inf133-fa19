@@ -171,7 +171,8 @@
 		},
 		{
 			"date": "2019-10-16",
-			"type": "officehours_jongho"
+			"type": "officehours_lucas",
+			"location": "DBH 5082"
 		},
 		{
 			"date": "2019-10-17",
@@ -180,7 +181,8 @@
 		},
 		{
 			"date": "2019-10-18",
-			"type": "officehours_lucas"
+			"type": "officehours_jongho",
+			"time": "09:30"
 		},
 		{
 			"date": "2019-10-21",
