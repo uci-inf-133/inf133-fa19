@@ -204,7 +204,8 @@
 			"type": "lecture",
 			"title": "AJAX, Fetch, & Promises",
 			"link": "assets/lectures/10_22_19-ajax_fetch_promises.pdf",
-			"demo": "assets/demos/10_22_19-ajax_fetch_promises.zip"
+			"demo": "assets/demos/10_22_19-ajax_fetch_promises.zip",
+			"recording":"https://uci.yuja.com/V/Video?v=516360&node=2458886&a=1151002558&autoplay=1"
 		},
 		{
 			"date": "2019-10-22",
