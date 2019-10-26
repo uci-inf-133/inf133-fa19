@@ -273,7 +273,9 @@
 		{
 			"date": "2019-11-05",
 			"type": "lecture",
-			"title": "Mobile Design Principles & SASS"
+			"title": "Mobile Design Principles & SASS",
+			"link": "assets/lectures/11_05_19-mobile_sass.pdf",
+			"demo": "assets/demos/11_05_19-mobile_sass.zip"
 		},
 		{
 			"date": "2019-11-05",
@@ -286,7 +288,8 @@
 		{
 			"date": "2019-11-07",
 			"type": "lecture",
-			"title": "Hybrid & Native Architectures"
+			"title": "Hybrid & Native Architectures",
+			"link": "assets/lectures/11_07_19-hybrid_native.pdf"
 		},
 		{
 			"date": "2019-11-07",
