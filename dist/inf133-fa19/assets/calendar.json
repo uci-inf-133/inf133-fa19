@@ -234,13 +234,6 @@
 			"link": "assets/discussions/10_28-vega_lite.pdf"
 		},
 		{
-			"date": "2019-10-30",
-			"type": "assignment",
-			"title": "A2",
-			"name": "Runkeeper Tweet Report in JavaScript and TypeScript",
-			"link": "/assignments/a2"
-		},
-		{
 			"date": "2019-10-29",
 			"type": "officehours_daniel"
 		},
@@ -249,7 +242,15 @@
 			"type": "lecture",
 			"title": "Components in Angular",
 			"link": "assets/lectures/10_29_19-angular_components.pdf",
-			"demo": "assets/demos/10_29_19-angular_components.zip"
+			"demo": "assets/demos/10_29_19-angular_components.zip",
+			"recording":"https://uci.yuja.com/V/Video?v=525713&a=1072511985"
+		},
+		{
+			"date": "2019-10-30",
+			"type": "assignment",
+			"title": "A2",
+			"name": "Runkeeper Tweet Report in JavaScript and TypeScript",
+			"link": "/assignments/a2"
 		},
 		{
 			"date": "2019-10-30",
