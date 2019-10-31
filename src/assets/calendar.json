@@ -261,7 +261,8 @@
 			"type": "lecture",
 			"title": "Separation in Angular",
 			"link": "assets/lectures/10_31_19-angular_separation_human_performance.pdf",
-			"demo": "assets/demos/10_31_19-angular_separation_human_performance.zip"
+			"demo": "assets/demos/10_31_19-angular_separation_human_performance.zip",
+			"recording":"https://uci.yuja.com/V/Video?v=527924&node=2489442&a=614383042&autoplay=1"
 		},
 		{
 			"date": "2019-11-01",
