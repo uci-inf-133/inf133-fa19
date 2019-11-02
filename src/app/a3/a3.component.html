@@ -38,14 +38,12 @@
    <h4>Running the webserver</h4>
    <p>A Spotify Developer account is required to set up the Express webserver. Create a Spotify account or log in at <a href="https://developer.spotify.com/dashboard/">https://developer.spotify.com/dashboard/</a> and follow the instructions to create a client id. Name the app whatever you'd like. For the App description, enter:</p>
    <blockquote>This App is used to create a music browser as part of a course assignment for IN4MATX 133, User Interface Software, at the University of California, Irvine.</blockquote>
-   Indicate that you are building a Website and are not developing a commercial application.
-   <p></p>
-   <p>Once you have created your application, create a file in the <code>webserver</code> folder (not the <code>routes</code> folder), <code>client_secret.json</code>, with your consumer key and secret. It should be of the form:</p>
+   <p>Indicate that you are building a Website and are not developing a commercial application.</p>
+   <p>Once you have created your application, be sure to set the redirect URI to <code>http://localhost:8888/callback</code>. This will tell Spotify to redirect back to our Express webserver once authentication and authorization is complete. You should also create a file in the <code>webserver</code> folder (not the <code>routes</code> folder), <code>client_secret.json</code>, with your consumer key and secret. It should be of the form:</p>
    <pre>{{ '{' }}
  "client_id": "Your Client Key",
  "client_secret": "Your Client Secret"
 {{ '}' }} </pre>
-   <p></p>
    <p>At this time, also create a placeholder file in the same folder for <code>tokens.json</code>. This file will be overwritten once an access and refresh token have been retrieved. Your <code>tokens.json</code> file should be exactly:</p>
    <pre>{{ '{' }}
  "access_token": null,
