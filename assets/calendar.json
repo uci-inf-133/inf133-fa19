@@ -231,7 +231,7 @@
 			"date": "2019-10-28",
 			"type": "discussion",
 			"title": "Discussion",
-			"link": "assets/discussions/10_28-vega_lite.pdf"
+			"link": "assets/discussions/10_28_19-vega_lite.pdf"
 		},
 		{
 			"date": "2019-10-29",
@@ -271,7 +271,9 @@
 		{
 			"date": "2019-11-04",
 			"type": "discussion",
-			"title": "Discussion"
+			"title": "Discussion",
+			"link": "assets/discussions/11_04_19-angular.pdf",
+			"demo": "assets/discussions/11_04_19-angular_demo.zip"
 		},
 		{
 			"date": "2019-11-05",
