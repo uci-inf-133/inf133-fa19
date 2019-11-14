@@ -295,7 +295,8 @@
 			"date": "2019-11-07",
 			"type": "lecture",
 			"title": "Hybrid & Native Architectures",
-			"link": "assets/lectures/11_07_19-hybrid_native.pdf"
+			"link": "assets/lectures/11_07_19-hybrid_native.pdf",
+			"recording":"https://uci.yuja.com/V/Video?v=534075&a=544298158"
 		},
 		{
 			"date": "2019-11-07",
@@ -347,7 +348,8 @@
 		{
 			"date": "2019-11-14",
 			"type": "lecture",
-			"title": "Mixed Reality Design and Play"
+			"title": "Designing for Mixed Reality Play",
+			"link": "assets/lectures/11_14_19-mixed_reality.pdf"
 		},
 		{
 			"date": "2019-11-15",
