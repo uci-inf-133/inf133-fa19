@@ -376,7 +376,9 @@
 		{
 			"date": "2019-11-19",
 			"type": "lecture",
-			"title": "Ionic Components"
+			"title": "Ionic Components",
+			"link": "assets/lectures/11_19_19-ionic_components.pdf",
+			"demo": "assets/demos/11_19_19-ionic_components.zip"
 		},
 		{
 			"date": "2019-11-19",
