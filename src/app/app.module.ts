@@ -15,7 +15,6 @@ import { A1Component } from './a1/a1.component';
 import { A2Component } from './a2/a2.component';
 import { A3Component } from './a3/a3.component';
 import { A4Component } from './a4/a4.component';
-import { A5Component } from './a5/a5.component';
 import { SyllabusComponent } from './syllabus/syllabus.component';
 import { ResourcesComponent } from './resources/resources.component';
 import { CalendarComponent } from './calendar/calendar.component';
@@ -32,7 +31,6 @@ import { CalendarComponent } from './calendar/calendar.component';
     A2Component,
     A3Component,
     A4Component,
-    A5Component,
     SyllabusComponent,
     ResourcesComponent,
     CalendarComponent
