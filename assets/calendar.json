@@ -364,7 +364,9 @@
 		{
 			"date": "2019-11-18",
 			"type": "discussion",
-			"title": "Discussion"
+			"title": "Discussion",
+			"link": "assets/discussions/11_18_19-ionic.pdf",
+			"demo": "assets/discussions/11_18_19-ionic_demo.zip"
 		},
 		{
 			"date": "2019-11-18",
