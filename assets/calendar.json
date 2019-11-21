@@ -399,7 +399,9 @@
 		{
 			"date": "2019-11-21",
 			"type": "lecture",
-			"title": "Smartphone Systems Security"
+			"title": "Smartphone Systems Security",
+			"link":"assets/lectures/11_21_19-smartphone_security.pdf",
+			"recording": "https://uci.yuja.com/V/Video?v=546433&a=1197903469"
 		},
 		{
 			"date": "2019-11-22",
