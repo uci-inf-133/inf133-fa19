@@ -420,7 +420,8 @@
 		{
 			"date": "2019-11-26",
 			"type": "lecture",
-			"title": "Device Resources & Sensors"
+			"title": "Device Resources & Sensors",
+			"demo": "assets/demos/11_26_19-device_resources.zip"
 		},
 		{
 			"date": "2019-11-26",
