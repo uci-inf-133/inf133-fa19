@@ -415,7 +415,9 @@
 		{
 			"date": "2019-11-25",
 			"type": "discussion",
-			"title": "Discussion"
+			"title": "Discussion",
+			"link":"assets/discussions/11_25_19-react.pdf",
+			"demo":"assets/discussions/11_25_19-react_demo.zip"
 		},
 		{
 			"date": "2019-11-26",
