@@ -78,14 +78,32 @@ export class CalendarComponent implements OnInit {
 							"location": place.location
 						};
 					});
+				} else if(!calendar['defaults'][event.type]["place"]) {
+					var start_time = null
+					if("time" in event) {
+						start_time = moment(event.date + " " + event.time);
+					}
+					var end_time = null;
+					if("duration" in event) {
+						end_time = moment(start_time).add(event.duration, "minutes");
+					}
+					if("location" in event) {
+						loc = event.location;
+					}
+					if(start_time && end_time) {
+						ev.places.push({
+							"timeStr": [start_time.format("h:mm") + "-" + end_time.format("h:mm")],
+							"location": [loc],
+						});
+					}
 				} else {
 					var place = calendar['defaults'][event.type]["place"];
-					var start_time = moment(event.date + " " + place.time);
+					var start_time:any = moment(event.date + " " + place.time);
 					var loc = place.location;
 					if("time" in event) {
 						start_time = moment(event.date + " " + event.time);
 					}
-					var end_time = moment(start_time).add(place.duration, "minutes");
+					var end_time:any = moment(start_time).add(place.duration, "minutes");
 					if("duration" in event) {
 						end_time = moment(start_time).add(event.duration, "minutes");
 					}

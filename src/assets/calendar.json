@@ -60,7 +60,7 @@
 			"due": "23:59"
 		},
 		"quiz" : {
-			"due": "09:00"
+			"place": null
 		}
 	},
 	"events" : [

@@ -43,6 +43,7 @@
 							{{event.name}}
 						</div>
 					</div>
+					<div *ngFor="let place of event.places">{{place.timeStr}} | {{place.location}}</div>
 				</div>
 			</div>
 		</div>
