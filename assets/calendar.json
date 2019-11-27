@@ -457,7 +457,9 @@
 		{
 			"date": "2019-12-03",
 			"type": "lecture",
-			"title": "Databases"
+			"title": "Databases and Local Storage",
+			"link": "assets/lectures/12_03_19-databases.pdf",
+			"demo": "assets/demos/12_03_19-databases.zip"
 		},
 		{
 			"date": "2019-12-04",
