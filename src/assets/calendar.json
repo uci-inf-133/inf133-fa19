@@ -459,7 +459,8 @@
 			"type": "lecture",
 			"title": "Databases and Local Storage",
 			"link": "assets/lectures/12_03_19-databases.pdf",
-			"demo": "assets/demos/12_03_19-databases.zip"
+			"demo": "assets/demos/12_03_19-databases.zip",
+			"recording": "https://uci.yuja.com/V/Video?v=553633&node=2564663&a=149765741&autoplay=1"
 		},
 		{
 			"date": "2019-12-04",
