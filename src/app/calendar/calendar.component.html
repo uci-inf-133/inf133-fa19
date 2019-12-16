@@ -1,6 +1,5 @@
 <main class="container-fluid">
 	<h1>Calendar</h1>
-	<p class="tbd">All deadlines are subject to change, particularly prior to the start of the quarter.</p>
 	<div class="row row-eq-height" *ngFor="let week of calendar">
 		<div *ngFor="let day of week" class="day" [ngClass]="day.weekend ? (day.today ? 'col today' : 'col') : (day.today ? 'col-2 today' : 'col-2')">
 			<div>
